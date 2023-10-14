@@ -1,0 +1,42 @@
+<html>
+    <title>Calculator</title>
+        <head>
+        <link rel="stylesheet" href="style.css">
+        </head>
+    
+        <body>
+            <div class="container">
+                <div class="cal" style="border: 2px solid #050505;" >
+                    <div class="main">
+                        
+                    </div>
+                    <input type="text" id="inputext" placeholder="0">
+                    <button onclick="clr()" style="color: red;" >C</button> 
+                    <button onclick="del()" style="color: red;">DEL</button>
+                    <button onclick="calculate('/')" style="color: green">/</button>
+                    <button onclick="calculate('*')" style="color: green">*</button>
+                    <button onclick="calculate(7)">7</button>
+                    <button onclick="calculate(8)">8</button>
+                    <button onclick="calculate(9)">9</button>
+                    <button onclick="calculate('-')" style="color: green">-</button>
+                    <button onclick="calculate(4)">4</button>
+                    <button onclick="calculate(5)">5</button>
+                    <button onclick="calculate(6)">6</button>
+                    <button onclick="calculate('+')" style="color: green">+</button>
+                    <button onclick="calculate(1)">1</button>
+                    <button onclick="calculate(2)">2</button>
+                    <button onclick="calculate(3)">3</button>
+                    <button onclick="calculate('.')" style="color: green" >.</button>
+                    <button onclick="calculate('00')">00</button>
+                    <button onclick="calculate(0)">0</button>
+                    <button class="equalsign" onclick="result()" style="color: green;">=</button>
+                    <script src=Calculate.js></script>
+
+
+                </div>
+
+            </div>
+        </body>
+        
+    
+</html>
